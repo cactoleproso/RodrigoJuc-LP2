@@ -1,0 +1,6 @@
+D:\RodrigoJucaLP2\Forca\Forca\bin\Debug\Forca.exe.config
+D:\RodrigoJucaLP2\Forca\Forca\bin\Debug\Forca.exe
+D:\RodrigoJucaLP2\Forca\Forca\bin\Debug\Forca.pdb
+D:\RodrigoJucaLP2\Forca\Forca\obj\Debug\Forca.csprojResolveAssemblyReference.cache
+D:\RodrigoJucaLP2\Forca\Forca\obj\Debug\Forca.exe
+D:\RodrigoJucaLP2\Forca\Forca\obj\Debug\Forca.pdb
