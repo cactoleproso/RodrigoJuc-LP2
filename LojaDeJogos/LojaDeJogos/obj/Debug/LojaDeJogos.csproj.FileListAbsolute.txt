@@ -1,0 +1,17 @@
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\bin\Debug\LojaDeJogos.exe.config
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\bin\Debug\LojaDeJogos.exe
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\bin\Debug\LojaDeJogos.pdb
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\LojaDeJogos.csprojResolveAssemblyReference.cache
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\MainWindow.baml
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\MainWindow.g.cs
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\App.g.cs
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\LojaDeJogos_MarkupCompile.cache
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\LojaDeJogos.g.resources
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\LojaDeJogos.Properties.Resources.resources
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\LojaDeJogos.csproj.GenerateResource.Cache
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\LojaDeJogos.exe
+c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\LojaDeJogos.pdb
+C:\Users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\Consultar.baml
+C:\Users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\Consultar.g.cs
+C:\Users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\Adicionar.baml
+C:\Users\rodpo_000\documents\visual studio 2013\Projects\LojaDeJogos\LojaDeJogos\obj\Debug\Adicionar.g.cs
