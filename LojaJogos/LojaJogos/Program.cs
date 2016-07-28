@@ -15,6 +15,7 @@ namespace LojaJogos
             int n; int p; int count = 0;
             while ( count == 0)
             {
+                
                 Console.Clear();
                 Console.WriteLine("Selecione uma das operações digitando o numero ao seu lado.");
                 Console.WriteLine("1 - Adicionar");
@@ -41,7 +42,7 @@ namespace LojaJogos
                         Console.WriteLine("Qual é o gênero deste jogo? ( ação/aventura/RPG )");
                         a.Genero = Console.ReadLine();
                         Console.WriteLine("Qual é o ano de lançamento deste jogo? ( digite no formato de dia/mês/ano )");
-                        a.AnoL = Console.ReadLine();
+                        a.Data = Console.ReadLine();
                         Console.WriteLine("Qual é o preço deste jogo?");
                         a.Preço = double.Parse(Console.ReadLine());
                         Console.WriteLine("Qual é o ID de seu jogo?");
@@ -94,7 +95,7 @@ namespace LojaJogos
                     Console.WriteLine("Digite o novo gênero deste jogo:");
                     a.Genero = Console.ReadLine();
                     Console.WriteLine("Digite o novo ano de lançamento deste jogo:");              
-                    a.AnoL = Console.ReadLine();                
+                    a.Data = Console.ReadLine();                
                     Console.WriteLine("Digite o novo preço deste jogo:");
                     a.Preço = double.Parse(Console.ReadLine());
                     Console.WriteLine("Digite o novo ID deste jogo:");

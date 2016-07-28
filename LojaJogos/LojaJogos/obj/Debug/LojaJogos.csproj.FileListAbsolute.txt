@@ -4,3 +4,9 @@ c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaJogos\LojaJogos\bin
 c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaJogos\LojaJogos\obj\Debug\LojaJogos.csprojResolveAssemblyReference.cache
 c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaJogos\LojaJogos\obj\Debug\LojaJogos.exe
 c:\users\rodpo_000\documents\visual studio 2013\Projects\LojaJogos\LojaJogos\obj\Debug\LojaJogos.pdb
+C:\RodrigoJuc-LP2\LojaJogos\LojaJogos\bin\Debug\LojaJogos.exe.config
+C:\RodrigoJuc-LP2\LojaJogos\LojaJogos\obj\Debug\LojaJogos.exe
+C:\RodrigoJuc-LP2\LojaJogos\LojaJogos\obj\Debug\LojaJogos.pdb
+C:\RodrigoJuc-LP2\LojaJogos\LojaJogos\bin\Debug\LojaJogos.exe
+C:\RodrigoJuc-LP2\LojaJogos\LojaJogos\bin\Debug\LojaJogos.pdb
+C:\RodrigoJuc-LP2\LojaJogos\LojaJogos\obj\Debug\LojaJogos.csprojResolveAssemblyReference.cache

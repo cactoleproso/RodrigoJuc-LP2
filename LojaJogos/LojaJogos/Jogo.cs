@@ -12,7 +12,7 @@ namespace LojaJogos
         public string NomeJogo { get; set; }
         public int Id { get; set; }
         public string Genero { get; set; }
-        public string AnoL { get; set; }
+        public string Data { get; set; }
         private double _preço;
         public string Requesitos { get; set; }
         public string Desenvolvedor { get; set; }

@@ -30,7 +30,7 @@ namespace LojaJogos
                     Console.WriteLine("Nome: {0}", a.NomeJogo);
                     Console.WriteLine("Genero: {0}", a.Genero);
                     Console.WriteLine("ID: {0}", a.Id);
-                    Console.WriteLine("Ano Lançado: {0}", a.AnoL);
+                    Console.WriteLine("Ano Lançado: {0}", a.Data);
                     Console.WriteLine("Desenvolvedor: {0}", a.Desenvolvedor);
                     Console.WriteLine("Requisitos: {0}", a.Requesitos);
                     Console.WriteLine("Preço: {0}", a.Preço);
@@ -60,7 +60,7 @@ namespace LojaJogos
                     Console.WriteLine("Nome: {0}", a.NomeJogo);
                     Console.WriteLine("Genero: {0}", a.Genero);
                     Console.WriteLine("ID: {0}", a.Id);
-                    Console.WriteLine("Ano Lançado: {0}", a.AnoL);
+                    Console.WriteLine("Ano Lançado: {0}", a.Data);
                     Console.WriteLine("Desenvolvedor: {0}", a.Desenvolvedor);
                     Console.WriteLine("Requisitos: {0}", a.Requesitos);
                     Console.WriteLine("Preço: {0}", a.Preço);
@@ -91,7 +91,7 @@ namespace LojaJogos
                     Console.WriteLine("Nome: {0}", a.NomeJogo);
                     Console.WriteLine("Genero: {0}", a.Genero);
                     Console.WriteLine("ID: {0}", a.Id);
-                    Console.WriteLine("Ano Lançado: {0}", a.AnoL);
+                    Console.WriteLine("Ano Lançado: {0}", a.Data);
                     Console.WriteLine("Desenvolvedor: {0}", a.Desenvolvedor);
                     Console.WriteLine("Requisitos: {0}", a.Requesitos);
                     Console.WriteLine("Preço: {0}", a.Preço);
@@ -120,7 +120,7 @@ namespace LojaJogos
                     Console.WriteLine("Nome: {0}", Jogos[i].NomeJogo);
                     Console.WriteLine("Genero: {0}", Jogos[i].Genero);
                     Console.WriteLine("ID: {0}", Jogos[i].Id);
-                    Console.WriteLine("Ano Lançado: {0}", Jogos[i].AnoL);
+                    Console.WriteLine("Ano Lançado: {0}", Jogos[i].Data);
                     Console.WriteLine("Desenvolvedor: {0}", Jogos[i].Desenvolvedor);
                     Console.WriteLine("Requisitos: {0}", Jogos[i].Requesitos);
                     Console.WriteLine("Preço: {0}", Jogos[i].Preço);
