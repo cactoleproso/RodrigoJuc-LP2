@@ -112,10 +112,21 @@ namespace LojaJogos
         public void Alterar(int IDcons)
         {          
             int count = 0;
-            foreach (Jogo b in Jogos)
+            for (int i = 0; i < Jogos.Count; i++)
             {
-                if (b.Id == IDcons)
+                if (Jogos[i].Id == IDcons)
                 {
+                    Console.WriteLine("----------------Dados Antigos do jogo----------------");
+                    Console.WriteLine("Nome: {0}", Jogos[i].NomeJogo);
+                    Console.WriteLine("Genero: {0}", Jogos[i].Genero);
+                    Console.WriteLine("ID: {0}", Jogos[i].Id);
+                    Console.WriteLine("Ano Lançado: {0}", Jogos[i].AnoL);
+                    Console.WriteLine("Desenvolvedor: {0}", Jogos[i].Desenvolvedor);
+                    Console.WriteLine("Requisitos: {0}", Jogos[i].Requesitos);
+                    Console.WriteLine("Preço: {0}", Jogos[i].Preço);
+                    Console.WriteLine("----------------Dados Antigos do jogo----------------");
+                    Jogos.RemoveAt(i);
+                    count = -1;
                     break;
                 }
                 else

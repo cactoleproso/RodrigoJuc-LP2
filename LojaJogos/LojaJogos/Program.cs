@@ -82,54 +82,29 @@ namespace LojaJogos
                 }
                 if (p == 3)
                 {
-                    int IDcons; int r;
+                    Jogo a = new Jogo();
+                    int IDcons;
                     Console.Clear();
                     Console.WriteLine("Digite a ID do jogo que você deseja alterar:");
                     IDcons = int.Parse(Console.ReadLine());
                     b.Alterar(IDcons);
-                    Console.WriteLine("Responda 1 para sim e 2 para não");
-                    Console.WriteLine("Você deseja alterar o nome deste jogo? ( nome original: {0} ) ", a.NomeJogo);
-                    r = int.Parse(Console.ReadLine());
-                    if (r == 1)
-                    {
-                        Console.WriteLine("Digite o novo nome deste jogo:");
-                        a.NomeJogo = Console.ReadLine();
-                    }
-                    Console.WriteLine("Você deseja alterar o gênero deste jogo? ( gênero original: {0} ) ", a.Genero);
-                    r = int.Parse(Console.ReadLine());
-                    if (r == 1)
-                    {
-                        Console.WriteLine("Digite o novo gênero deste jogo:");
-                        a.Genero = Console.ReadLine();
-                    }
-                    Console.WriteLine("Você deseja alterar o ano de lançamento deste jogo? ( ano de lançamento original: {0} ) ", a.AnoL);
-                    r = int.Parse(Console.ReadLine());
-                    if (r == 1)
-                    {
-                        Console.WriteLine("Digite o novo ano de lançamento deste jogo:");
-                        a.AnoL = Console.ReadLine();
-                    }
-                    Console.WriteLine("Você deseja alterar o desenvolvedor deste jogo? ( desenvolvedor original: {0} ) ", a.Desenvolvedor);
-                    r = int.Parse(Console.ReadLine());
-                    if (r == 1)
-                    {
-                        Console.WriteLine("Digite o novo desenvolvedor deste jogo:");
-                        a.Desenvolvedor = Console.ReadLine();
-                    }
-                    Console.WriteLine("Você deseja alterar os requesitos para este jogo? ( requesitos originais: {0} ) ", a.Requesitos);
-                    r = int.Parse(Console.ReadLine());
-                    if (r == 1)
-                    {
-                        Console.WriteLine("Digite os novos requesitos deste jogo:");
-                        a.Requesitos = Console.ReadLine();
-                    }
-                    Console.WriteLine("Você deseja alterar o preço deste jogo? ( preço original: {0} ) ", a.Preço);
-                    r = int.Parse(Console.ReadLine());
-                    if (r == 1)
-                    {
-                        Console.WriteLine("Digite o novo preço deste jogo:");
-                        a.Preço = double.Parse(Console.ReadLine());
-                    }
+                    Console.WriteLine("Se você quiser manter o mesmo atributo anterior à alteração, precisa digitar o mesmo");
+                    Console.WriteLine("Digite o novo nome deste jogo:");
+                    a.NomeJogo = Console.ReadLine();
+                    Console.WriteLine("Digite o novo gênero deste jogo:");
+                    a.Genero = Console.ReadLine();
+                    Console.WriteLine("Digite o novo ano de lançamento deste jogo:");              
+                    a.AnoL = Console.ReadLine();                
+                    Console.WriteLine("Digite o novo preço deste jogo:");
+                    a.Preço = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite o novo ID deste jogo:");
+                    a.Id = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite o novo desenvolvedor deste jogo:");
+                    a.Desenvolvedor = Console.ReadLine();
+                    Console.WriteLine("Digite os novos requesitos deste jogo:");
+                    a.Requesitos = Console.ReadLine();
+                    b.AdicionarJogo(a);
+                    
                 
                 }
                 if (p == 4)
