@@ -39,15 +39,25 @@ namespace MYSQL
 
                     carros.Add(c);
                 }
-            }         
+            }
+            else
+            {
+                Console.WriteLine("SemRegistros.");
+            }
             //int result = cmd.ExecuteNonQuery();  --> usado para modificar o BD, retorna o número de linhas alteradas (update/delete/insert)  
             reader.Read(); // RETORNA BOOL usado para botar num while  // toda vez que usamos read, ele vê para o próximo da tabela  read--> |  1
 //                                                                                 2º read--->    |  2
 //                                                                                                |  3
 //                                                                                                |  4
-            string nome = reader.GetString(0);
-            Console.WriteLine("Nome: {0}", nome);
-            cmd.Connection.Close();
+            foreach(Carro c in carros)
+            {
+                Console.WriteLine("Id: {0}", c.id);
+                Console.WriteLine("Placa: {0}", c.Placa);
+                Console.WriteLine("IdCidade: {0}", c.IdCidade);
+                Console.WriteLine("Preço Revenda: R${0:00}", c.PreçoRevenda);
+
+            }
+            cmd.Connection.Close(); // só fechar a connection quando acabar o reader inteiro 
         }
     }
 }
