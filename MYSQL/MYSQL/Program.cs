@@ -55,7 +55,7 @@ namespace MYSQL
                 Console.WriteLine("Id: {0}", c.id);
                 Console.WriteLine("Placa: {0}", c.Placa);
                 Console.WriteLine("IdCidade: {0}", c.IdCidade);
-                Console.WriteLine("Preço Revenda: R${0:00}", c.PreçoRevenda);
+                Console.WriteLine("Preço Revenda: R${0:0.00}", c.PreçoRevenda);
 
             }
             cmd.Connection.Close(); // só fechar a connection quando acabar o reader inteiro 
