@@ -49,6 +49,7 @@ namespace MYSQL
 //                                                                                 2º read--->    |  2
 //                                                                                                |  3
 //                                                                                                |  4
+            Console.WriteLine("Foram encontrados {0} registros.\n", carros.Count);
             foreach(Carro c in carros)
             {
                 Console.WriteLine("Id: {0}", c.id);
