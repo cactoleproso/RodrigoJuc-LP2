@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //MySqlConnection // responsável por gerenciar uma conexão com o BD 
+            //MySqlCommand // controla as operações no BD
+            //MySqlConnection conn = new MySqlConnection ( "Server=localhost; Database=DB; Uid=root; Pwd=");
+            //MySqlCommand cmd = new MySqlCommand();
+            //cmd.Connection = conn;
+            //cmd.CommandText = "SELECT COUNT(*) FROM PESSOAS;"; //CONSULTA NO BD / QUANTOS REGISTROS HÁ EM PESSOAS
+            //------------------------------^CONFIGURAÇÃO DE UMA OPERAÇÃO No BD^----------------
+            //cmd.Connection.Open();
+            //cmd.Connection.Close();
+            // >ExecuteReader
+            // >Scalar contagem
+            // >NonQuery
+            //dependendo da operação, escolhemos o método apropriado
+            //EXEMPLOS
+            // int qnt = cmd.ExecuteScalar(); < esperamos um número inteiro como retorno, essa linha que vai executar o "cmd.CommandText = "SELECT COUNT(*) FROM PESSOAS;"
+            // exemplo de não ser int: int qtd= Convert.ToInt32(cmd.ExecuteScalar());
+            //>>>>>>>>>>clicar com o botão direito no consoleapplication >> nuget >> mysql 
+            // BAIXAR O HEIDSQL
+
+
+
+        }
+    }
+}
