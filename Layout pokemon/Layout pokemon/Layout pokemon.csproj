@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auntenticacao.cs" />
     <Compile Include="Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
