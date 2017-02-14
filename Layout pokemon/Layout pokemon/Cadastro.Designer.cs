@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastro));
             this.cadastreok = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.nomeinv = new System.Windows.Forms.Label();
+            this.senhainc = new System.Windows.Forms.Label();
             this.cancelar = new System.Windows.Forms.Button();
             this.cadastrosenha2 = new System.Windows.Forms.TextBox();
             this.cadastrosenha1 = new System.Windows.Forms.TextBox();
@@ -40,8 +42,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.senhainc = new System.Windows.Forms.Label();
-            this.nomeinv = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,6 +77,26 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Formulário:";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // nomeinv
+            // 
+            this.nomeinv.AutoSize = true;
+            this.nomeinv.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nomeinv.ForeColor = System.Drawing.Color.Silver;
+            this.nomeinv.Location = new System.Drawing.Point(8, 180);
+            this.nomeinv.Name = "nomeinv";
+            this.nomeinv.Size = new System.Drawing.Size(0, 16);
+            this.nomeinv.TabIndex = 11;
+            // 
+            // senhainc
+            // 
+            this.senhainc.AutoSize = true;
+            this.senhainc.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.senhainc.ForeColor = System.Drawing.Color.Silver;
+            this.senhainc.Location = new System.Drawing.Point(8, 164);
+            this.senhainc.Name = "senhainc";
+            this.senhainc.Size = new System.Drawing.Size(0, 16);
+            this.senhainc.TabIndex = 10;
             // 
             // cancelar
             // 
@@ -152,26 +172,6 @@
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nome:";
-            // 
-            // senhainc
-            // 
-            this.senhainc.AutoSize = true;
-            this.senhainc.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.senhainc.ForeColor = System.Drawing.Color.Silver;
-            this.senhainc.Location = new System.Drawing.Point(8, 164);
-            this.senhainc.Name = "senhainc";
-            this.senhainc.Size = new System.Drawing.Size(0, 16);
-            this.senhainc.TabIndex = 10;
-            // 
-            // nomeinv
-            // 
-            this.nomeinv.AutoSize = true;
-            this.nomeinv.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nomeinv.ForeColor = System.Drawing.Color.Silver;
-            this.nomeinv.Location = new System.Drawing.Point(8, 180);
-            this.nomeinv.Name = "nomeinv";
-            this.nomeinv.Size = new System.Drawing.Size(0, 16);
-            this.nomeinv.TabIndex = 11;
             // 
             // Cadastro
             // 

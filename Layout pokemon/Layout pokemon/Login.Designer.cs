@@ -117,6 +117,7 @@
             this.Entrar.TabIndex = 4;
             this.Entrar.Text = "Entrar";
             this.Entrar.UseVisualStyleBackColor = true;
+            this.Entrar.Click += new System.EventHandler(this.Entrar_Click);
             // 
             // Login
             // 
