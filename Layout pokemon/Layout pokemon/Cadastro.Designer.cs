@@ -37,11 +37,9 @@
             this.cadastrosenha2 = new System.Windows.Forms.TextBox();
             this.cadastrosenha1 = new System.Windows.Forms.TextBox();
             this.cadastroUsuario = new System.Windows.Forms.TextBox();
-            this.cadastroNome = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,11 +62,9 @@
             this.groupBox1.Controls.Add(this.cadastrosenha2);
             this.groupBox1.Controls.Add(this.cadastrosenha1);
             this.groupBox1.Controls.Add(this.cadastroUsuario);
-            this.groupBox1.Controls.Add(this.cadastroNome);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.cadastreok);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
@@ -110,7 +106,7 @@
             // 
             // cadastrosenha2
             // 
-            this.cadastrosenha2.Location = new System.Drawing.Point(96, 127);
+            this.cadastrosenha2.Location = new System.Drawing.Point(96, 104);
             this.cadastrosenha2.Name = "cadastrosenha2";
             this.cadastrosenha2.Size = new System.Drawing.Size(158, 20);
             this.cadastrosenha2.TabIndex = 8;
@@ -118,29 +114,22 @@
             // 
             // cadastrosenha1
             // 
-            this.cadastrosenha1.Location = new System.Drawing.Point(96, 96);
+            this.cadastrosenha1.Location = new System.Drawing.Point(96, 73);
             this.cadastrosenha1.Name = "cadastrosenha1";
             this.cadastrosenha1.Size = new System.Drawing.Size(158, 20);
             this.cadastrosenha1.TabIndex = 7;
             // 
             // cadastroUsuario
             // 
-            this.cadastroUsuario.Location = new System.Drawing.Point(96, 67);
+            this.cadastroUsuario.Location = new System.Drawing.Point(96, 44);
             this.cadastroUsuario.Name = "cadastroUsuario";
             this.cadastroUsuario.Size = new System.Drawing.Size(158, 20);
             this.cadastroUsuario.TabIndex = 6;
             // 
-            // cadastroNome
-            // 
-            this.cadastroNome.Location = new System.Drawing.Point(96, 38);
-            this.cadastroNome.Name = "cadastroNome";
-            this.cadastroNome.Size = new System.Drawing.Size(158, 20);
-            this.cadastroNome.TabIndex = 5;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 130);
+            this.label4.Location = new System.Drawing.Point(6, 107);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 13);
             this.label4.TabIndex = 4;
@@ -149,7 +138,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 99);
+            this.label3.Location = new System.Drawing.Point(6, 76);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 3;
@@ -158,20 +147,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 70);
+            this.label2.Location = new System.Drawing.Point(6, 47);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nome de Usuário:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Nome:";
             // 
             // Cadastro
             // 
@@ -196,12 +176,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button cancelar;
         private System.Windows.Forms.TextBox cadastrosenha2;
         private System.Windows.Forms.TextBox cadastrosenha1;
         private System.Windows.Forms.TextBox cadastroUsuario;
-        private System.Windows.Forms.TextBox cadastroNome;
         private System.Windows.Forms.Label senhainc;
         private System.Windows.Forms.Label nomeinv;
     }

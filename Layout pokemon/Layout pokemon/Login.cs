@@ -18,11 +18,11 @@ namespace Layout_pokemon
         {
             InitializeComponent();
         }
-        bool VerificaLogin()
+        bool FazerLogin()
         {
             bool result = false;
             MySqlCommand cmd = new MySqlCommand();
-            cmd.Connection = new MySqlConnection("Server=localhost;Database=test;Uid=root;Pwd=");
+            cmd.Connection = new MySqlConnection("Server=localhost;Database=test;Uid=root;Pwd=root");
             try
             {
                 cmd.CommandText = "SELECT * FROM login WHERE NomeUser = '" + UsuarioTxt.Text + "' AND senha = '" + SenhaTxt.Text + "';";
@@ -66,7 +66,7 @@ namespace Layout_pokemon
 
         private void Entrar_Click(object sender, EventArgs e)
         {
-            bool result = VerificaLogin();
+            bool result = FazerLogin();
             Logado = result;
             if (result)
             {
@@ -78,7 +78,7 @@ namespace Layout_pokemon
                 MessageBox.Show("usuario/senha incorreto");
             }
         }
-
+        
 
 
        
