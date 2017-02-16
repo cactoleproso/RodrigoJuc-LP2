@@ -40,7 +40,7 @@ namespace Layout_pokemon
             }
             return result;
         }
-     
+
 
         private void Login_Load(object sender, EventArgs e)
         {
@@ -51,7 +51,7 @@ namespace Layout_pokemon
         {
             Cadastro cad = new Cadastro();
             cad.ShowDialog();
-            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -78,9 +78,9 @@ namespace Layout_pokemon
                 MessageBox.Show("usuario/senha incorreto");
             }
         }
-        
 
 
-       
+
+
     }
 }

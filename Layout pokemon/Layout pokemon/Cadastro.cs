@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,16 +24,19 @@ namespace Layout_pokemon
         {
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = new MySqlConnection("Server=localhost;Database=test;Uid=root;Pwd=root");
-            cmd.CommandText = "SELECT Id FROM login WHERE NomeUser= @caduser" ;
-            cmd.Parameters.AddWithValue("@caduser", cadastroUsuario.Text);         
+            cmd.CommandText = "SELECT Id FROM login WHERE NomeUser= @caduser";
+            cmd.Parameters.AddWithValue("@caduser", cadastroUsuario.Text);
             cmd.Connection.Open();
             MySqlDataReader ler = cmd.ExecuteReader();
             if (ler.HasRows)
             {
                 MessageBox.Show("Já existe um usuário com este nome.");
+                cmd.Connection.Close();
             }
             else
             {
+                cmd.Connection.Close();
+                cmd.Connection.Open();
                 cmd.CommandText = "INSERT INTO login (NomeUser, Senha) VALUES (@nomeuser, @sen);";
                 cmd.Parameters.AddWithValue("@nomeuser", cadastroUsuario.Text);
                 cmd.Parameters.AddWithValue("@sen", cadastrosenha1.Text);
@@ -53,8 +57,8 @@ namespace Layout_pokemon
 
             if (cadastrosenha1.Text == cadastrosenha2.Text)
             {
-                
-                Cadastrar();               
+
+                Cadastrar();
 
             }
             else
@@ -63,7 +67,7 @@ namespace Layout_pokemon
                 cadastrosenha1.Text = string.Empty;
                 cadastrosenha2.Text = string.Empty;
             }
-                
+
         }
 
         private void cancelar_Click(object sender, EventArgs e)
