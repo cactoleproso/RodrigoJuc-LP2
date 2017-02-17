@@ -108,6 +108,7 @@
             // 
             this.cadastrosenha2.Location = new System.Drawing.Point(96, 104);
             this.cadastrosenha2.Name = "cadastrosenha2";
+            this.cadastrosenha2.PasswordChar = '*';
             this.cadastrosenha2.Size = new System.Drawing.Size(158, 20);
             this.cadastrosenha2.TabIndex = 8;
             this.cadastrosenha2.TextChanged += new System.EventHandler(this.cadastrosenha2_TextChanged);
@@ -116,6 +117,7 @@
             // 
             this.cadastrosenha1.Location = new System.Drawing.Point(96, 73);
             this.cadastrosenha1.Name = "cadastrosenha1";
+            this.cadastrosenha1.PasswordChar = '*';
             this.cadastrosenha1.Size = new System.Drawing.Size(158, 20);
             this.cadastrosenha1.TabIndex = 7;
             // 

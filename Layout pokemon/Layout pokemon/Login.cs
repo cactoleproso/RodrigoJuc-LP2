@@ -22,7 +22,7 @@ namespace Layout_pokemon
         {
             bool result = false;
             MySqlCommand cmd = new MySqlCommand();
-            cmd.Connection = new MySqlConnection("Server=localhost;Database=test;Uid=root;Pwd=root");
+            cmd.Connection = new MySqlConnection("Server=localhost;Database=test;Uid=root;Pwd=");
             try
             {
                 cmd.CommandText = "SELECT * FROM login WHERE NomeUser = '" + UsuarioTxt.Text + "' AND senha = '" + SenhaTxt.Text + "';";

@@ -23,7 +23,7 @@ namespace Layout_pokemon
         public void Cadastrar()
         {
             MySqlCommand cmd = new MySqlCommand();
-            cmd.Connection = new MySqlConnection("Server=localhost;Database=test;Uid=root;Pwd=root");
+            cmd.Connection = new MySqlConnection("Server=localhost;Database=test;Uid=root;Pwd=");
             cmd.CommandText = "SELECT Id FROM login WHERE NomeUser= @caduser";
             cmd.Parameters.AddWithValue("@caduser", cadastroUsuario.Text);
             cmd.Connection.Open();

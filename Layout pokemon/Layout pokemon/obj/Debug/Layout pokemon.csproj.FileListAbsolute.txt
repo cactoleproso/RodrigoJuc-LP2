@@ -24,3 +24,14 @@ C:\RodrigoJuc-LP2\Layout pokemon\Layout pokemon\obj\Debug\Layout_pokemon.Propert
 C:\RodrigoJuc-LP2\Layout pokemon\Layout pokemon\obj\Debug\Layout pokemon.csproj.GenerateResource.Cache
 C:\RodrigoJuc-LP2\Layout pokemon\Layout pokemon\obj\Debug\Layout pokemon.exe
 C:\RodrigoJuc-LP2\Layout pokemon\Layout pokemon\obj\Debug\Layout pokemon.pdb
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\bin\Debug\Layout pokemon.exe.config
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\obj\Debug\Layout pokemon.exe
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\obj\Debug\Layout pokemon.pdb
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\bin\Debug\Layout pokemon.exe
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\bin\Debug\Layout pokemon.pdb
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\bin\Debug\MySql.Data.dll
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\obj\Debug\Layout pokemon.csprojResolveAssemblyReference.cache
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\obj\Debug\Layout_pokemon.Cadastro.resources
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\obj\Debug\Layout_pokemon.Login.resources
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\obj\Debug\Layout_pokemon.Properties.Resources.resources
+D:\RodrigoJucaLP2\Layout pokemon\Layout pokemon\obj\Debug\Layout pokemon.csproj.GenerateResource.Cache

@@ -78,8 +78,10 @@
             // 
             // SenhaTxt
             // 
+            this.SenhaTxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.SenhaTxt.Location = new System.Drawing.Point(53, 74);
             this.SenhaTxt.Name = "SenhaTxt";
+            this.SenhaTxt.PasswordChar = '*';
             this.SenhaTxt.Size = new System.Drawing.Size(161, 20);
             this.SenhaTxt.TabIndex = 3;
             // 
