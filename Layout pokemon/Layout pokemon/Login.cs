@@ -8,11 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace Layout_pokemon
 {
     public partial class Login : Form
     {
+        Thread lg;
+        public static string UsuarioLogado;
         private bool Logado = false;
         public Login()
         {
@@ -25,6 +28,7 @@ namespace Layout_pokemon
             cmd.Connection = new MySqlConnection("Server=localhost;Database=test;Uid=root;Pwd=root");
             try
             {
+                
                 cmd.CommandText = "SELECT * FROM login WHERE NomeUser = '" + UsuarioTxt.Text + "' AND senha = '" + SenhaTxt.Text + "';";
                 cmd.Connection.Open();
                 MySqlDataReader dados = cmd.ExecuteReader();
@@ -40,7 +44,6 @@ namespace Layout_pokemon
             }
             return result;
         }
-
 
         private void Login_Load(object sender, EventArgs e)
         {
@@ -66,12 +69,18 @@ namespace Layout_pokemon
 
         private void Entrar_Click(object sender, EventArgs e)
         {
+            UsuarioLogado = UsuarioTxt.Text;
             bool result = FazerLogin();
             Logado = result;
             if (result)
             {
-                MessageBox.Show("Bem vindo!");
-
+                MessageBox.Show("Bem vindo!");         
+                this.Close();
+                lg = new Thread(abrirnovaform);
+                lg.SetApartmentState(ApartmentState.STA);
+                lg.Start();
+                
+                
             }
             else
             {
@@ -79,8 +88,9 @@ namespace Layout_pokemon
             }
         }
 
-
-
-
+        private void abrirnovaform(object obj)
+        {
+            Application.Run(new Form1());
+        }
     }
 }
