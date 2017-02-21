@@ -45,7 +45,7 @@
             // 
             // cadastreok
             // 
-            this.cadastreok.Location = new System.Drawing.Point(176, 209);
+            this.cadastreok.Location = new System.Drawing.Point(176, 157);
             this.cadastreok.Name = "cadastreok";
             this.cadastreok.Size = new System.Drawing.Size(75, 23);
             this.cadastreok.TabIndex = 0;
@@ -68,7 +68,7 @@
             this.groupBox1.Controls.Add(this.cadastreok);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(257, 238);
+            this.groupBox1.Size = new System.Drawing.Size(257, 194);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Formulário:";
@@ -96,7 +96,7 @@
             // 
             // cancelar
             // 
-            this.cancelar.Location = new System.Drawing.Point(9, 209);
+            this.cancelar.Location = new System.Drawing.Point(11, 157);
             this.cancelar.Name = "cancelar";
             this.cancelar.Size = new System.Drawing.Size(75, 23);
             this.cancelar.TabIndex = 9;
@@ -160,9 +160,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Layout_pokemon.Properties.Resources.l42324_pokeball_48813;
-            this.ClientSize = new System.Drawing.Size(281, 262);
+            this.ClientSize = new System.Drawing.Size(281, 225);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Cadastro";
             this.Text = "Cadastro";
             this.groupBox1.ResumeLayout(false);

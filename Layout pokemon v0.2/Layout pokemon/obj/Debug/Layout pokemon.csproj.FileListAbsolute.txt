@@ -42,3 +42,17 @@ C:\Users\alunoct\Desktop\lp2\Layout pokemon\Layout pokemon\obj\Debug\Layout_poke
 C:\Users\alunoct\Desktop\lp2\Layout pokemon\Layout pokemon\obj\Debug\Layout_pokemon.Login.resources
 C:\Users\alunoct\Desktop\lp2\Layout pokemon\Layout pokemon\obj\Debug\Layout_pokemon.Properties.Resources.resources
 C:\Users\alunoct\Desktop\lp2\Layout pokemon\Layout pokemon\obj\Debug\Layout pokemon.csproj.GenerateResource.Cache
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\bin\Debug\Layout pokemon.exe.config
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout pokemon.exe
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout pokemon.pdb
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\bin\Debug\Layout pokemon.exe
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\bin\Debug\Layout pokemon.pdb
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\bin\Debug\MySql.Data.dll
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout pokemon.csprojResolveAssemblyReference.cache
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout_pokemon.Batalha.resources
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout_pokemon.Cadastro.resources
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout_pokemon.Form1.resources
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout_pokemon.ListaPokemon.resources
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout_pokemon.Login.resources
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout_pokemon.Properties.Resources.resources
+C:\Users\alunoct\Desktop\lp2\Layout pokemon v0.2\Layout pokemon\obj\Debug\Layout pokemon.csproj.GenerateResource.Cache
