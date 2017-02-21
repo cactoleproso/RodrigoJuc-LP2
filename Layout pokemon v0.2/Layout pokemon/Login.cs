@@ -29,7 +29,10 @@ namespace Layout_pokemon
             try
             {
                 
-                cmd.CommandText = "SELECT * FROM login WHERE NomeUser = '" + UsuarioTxt.Text + "' AND senha = '" + SenhaTxt.Text + "';";
+                
+                cmd.CommandText = "SELECT * FROM login WHERE NomeUser= @loguser AND senha = @logsenha;";
+                cmd.Parameters.AddWithValue("@loguser", UsuarioTxt.Text);
+                cmd.Parameters.AddWithValue("@logsenha", SenhaTxt.Text);
                 cmd.Connection.Open();
                 MySqlDataReader dados = cmd.ExecuteReader();
                 result = dados.HasRows;

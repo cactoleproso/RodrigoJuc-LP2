@@ -32,8 +32,6 @@ namespace Layout_pokemon
             }
             else
             {
-                cmd.Connection.Close();
-                cmd.Connection.Open();
                 cmd.CommandText = "INSERT INTO pokedex (Criador, Nome, Tipo, ATK, DEF, HP) VALUES (@cria, @nome, @tipo, @atk, @def, @hp);";
                 cmd.Parameters.AddWithValue("@cria", Login.UsuarioLogado);
                 cmd.Parameters.AddWithValue("@nome", nomeL.Text);
@@ -44,8 +42,8 @@ namespace Layout_pokemon
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Cadastro feito com sucesso!");
                 this.Close();
+                cmd.Connection.Close();
             }
-            cmd.Connection.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -53,7 +51,7 @@ namespace Layout_pokemon
             int atk = int.Parse(ataqueL.Text);
             int def = int.Parse(defesaL.Text);
             int hp = int.Parse(hpL.Text);
-            if (hp != 0 || def != 0 || atk != 0)
+            if (hp != 0 && def != 0 && atk != 0)
             {
                 if (hp + def + atk == 180)
                 {

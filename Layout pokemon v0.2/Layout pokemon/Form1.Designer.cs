@@ -95,9 +95,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(6, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 13);
+            this.label1.Size = new System.Drawing.Size(147, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Pokémons no banco de dados:";
+            this.label1.Text = "Seus pokémons cadastrados:";
             // 
             // listBox1
             // 

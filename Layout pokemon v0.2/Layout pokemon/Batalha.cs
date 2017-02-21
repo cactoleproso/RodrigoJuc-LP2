@@ -93,8 +93,9 @@ namespace Layout_pokemon
             double multiplicador1 = 1;
             double multiplicador2 = 1;
 
+            #region feio
 
-            if(tipo1 == "agua" && tipo2=="fogo")
+            if (tipo1 == "agua" && tipo2=="fogo")
             {
                 multiplicador1 = 1.50;
                 multiplicador2 = 0.50;
@@ -309,8 +310,8 @@ namespace Layout_pokemon
                 multiplicador2 = 0.5;
                 multiplicador1 = 1.5;
             }
-            
-            
+
+            #endregion
 
             int deftotal1 = HP1 + DEF1;
             int deftotal2 = HP2 + DEF2;
@@ -345,6 +346,11 @@ namespace Layout_pokemon
         }
 
         private void pkm1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }

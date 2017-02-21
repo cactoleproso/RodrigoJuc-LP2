@@ -55,7 +55,7 @@ namespace Layout_pokemon
         private void cadastreok_Click(object sender, EventArgs e)
         {
 
-            if (cadastrosenha1.Text == cadastrosenha2.Text)
+            if (cadastrosenha1.Text == cadastrosenha2.Text && cadastrosenha1.Text != null && !string.IsNullOrWhiteSpace(cadastrosenha1.Text))
             {
 
                 Cadastrar();
@@ -63,7 +63,7 @@ namespace Layout_pokemon
             }
             else
             {
-                MessageBox.Show("As senhas não conferem");
+                MessageBox.Show("As senhas não conferem ou estão em branco");
                 cadastrosenha1.Text = string.Empty;
                 cadastrosenha2.Text = string.Empty;
             }

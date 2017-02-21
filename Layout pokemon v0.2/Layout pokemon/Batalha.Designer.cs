@@ -94,7 +94,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(31, 49);
+            this.label3.Location = new System.Drawing.Point(31, 60);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 13);
             this.label3.TabIndex = 7;
@@ -104,7 +104,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(324, 49);
+            this.label4.Location = new System.Drawing.Point(327, 60);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 8;
@@ -113,7 +113,8 @@
             // pkm1
             // 
             this.pkm1.AutoSize = true;
-            this.pkm1.Location = new System.Drawing.Point(138, 185);
+            this.pkm1.BackColor = System.Drawing.Color.Transparent;
+            this.pkm1.Location = new System.Drawing.Point(138, 187);
             this.pkm1.Name = "pkm1";
             this.pkm1.Size = new System.Drawing.Size(0, 13);
             this.pkm1.TabIndex = 9;
@@ -132,6 +133,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Location = new System.Drawing.Point(189, 35);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(0, 13);
@@ -140,6 +142,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Location = new System.Drawing.Point(189, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(0, 13);
@@ -149,11 +152,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Location = new System.Drawing.Point(8, 9);
+            this.label8.Location = new System.Drawing.Point(31, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(109, 13);
+            this.label8.Size = new System.Drawing.Size(129, 39);
             this.label8.TabIndex = 13;
-            this.label8.Text = "O menor valor vence:";
+            this.label8.Text = "O menor valor de ataques\r\nnecessários para abater o\r\noponente vence:\r\n";
             // 
             // Batalha
             // 
