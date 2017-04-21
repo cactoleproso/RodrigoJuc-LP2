@@ -1,0 +1,4 @@
+KEK.MainActivity, KEK;md5b19fbc2c7665cb4a5e0c8cadaef0e57f.MainActivity
+KEK.MainActivity, KEK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b19fbc2c7665cb4a5e0c8cadaef0e57f.MainActivity
+KEK.MainActivity;md5b19fbc2c7665cb4a5e0c8cadaef0e57f.MainActivity
+kek.MainActivity;md5b19fbc2c7665cb4a5e0c8cadaef0e57f.MainActivity
