@@ -1,0 +1,14 @@
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe.config
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.pdb
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csprojResolveAssemblyReference.cache
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.baml
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.g.cs
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\App.g.cs
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira_MarkupCompile.cache
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.g.resources
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag_Canavieira.Properties.Resources.resources
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csproj.GenerateResource.Cache
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.exe
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.pdb
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\bin\Debug\MySql.Data.dll
