@@ -25,11 +25,13 @@ namespace Gulag_Canavieira
         public MainWindow()
         {
             InitializeComponent();
+            AtualizarListas();
         }
 
 
-        public void AtualizarLista()
+        public void AtualizarListas()
         {
+            listgulag.Items.Clear();
             MySqlCommand cmd = new MySqlCommand
             {
                 Connection = new MySqlConnection("Server=localhost; Database=gulag; Uid=root; Pwd="),
@@ -37,7 +39,6 @@ namespace Gulag_Canavieira
             };
 
             MySqlDataReader ler;
-
             try
             {
                 cmd.Connection.Open();
@@ -53,10 +54,32 @@ namespace Gulag_Canavieira
                 MessageBox.Show(e.Message);
 
             }
-
-
         }
 
+        public void AtualizarMotivo()
+        {
+            MySqlCommand cmd = new MySqlCommand
+            {
+                Connection = new MySqlConnection("Server=localhost; Database=gulag; Uid=root; Pwd="),
+                CommandText = "SELECT Motivo FROM gulag"
+            };
+            MySqlDataReader ler;
+            try
+            {
+                cmd.Connection.Open();
+                ler = cmd.ExecuteReader();
+                while (ler.Read())
+                {
+                    string smotivo = ler.GetString("Motivo");
+                    motivobox.Text = smotivo;
+                }
+            }
+            catch (Exception i)
+            {
+                MessageBox.Show(i.Message);
+            }
+            cmd.Connection.Close();
+        }
 
         public void MandarGulag()
         {
@@ -90,13 +113,20 @@ namespace Gulag_Canavieira
 
         private void mandargulag_Click(object sender, RoutedEventArgs e)
         {
-            MandarGulag();
-            AtualizarLista();
+            if (string.IsNullOrWhiteSpace(Nometxt.Text) || string.IsNullOrWhiteSpace(MotivoTxt.Text))
+            {
+                MessageBox.Show("Preencha os campos corretamente");
+            }
+            else
+            {
+                MandarGulag();
+                AtualizarListas();
+            }
         }
 
         private void listgulag_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            AtualizarMotivo();
         }
     }
 }
