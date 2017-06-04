@@ -4,3 +4,9 @@ c:\users\rodpo_000\documents\visual studio 2013\Projects\Prova\Prova\bin\Debug\P
 c:\users\rodpo_000\documents\visual studio 2013\Projects\Prova\Prova\obj\Debug\Prova.csprojResolveAssemblyReference.cache
 c:\users\rodpo_000\documents\visual studio 2013\Projects\Prova\Prova\obj\Debug\Prova.exe
 c:\users\rodpo_000\documents\visual studio 2013\Projects\Prova\Prova\obj\Debug\Prova.pdb
+C:\RodrigoJuc-LP2\ExCarro\Prova\bin\Debug\Prova.exe.config
+C:\RodrigoJuc-LP2\ExCarro\Prova\obj\Debug\Prova.exe
+C:\RodrigoJuc-LP2\ExCarro\Prova\obj\Debug\Prova.pdb
+C:\RodrigoJuc-LP2\ExCarro\Prova\bin\Debug\Prova.exe
+C:\RodrigoJuc-LP2\ExCarro\Prova\bin\Debug\Prova.pdb
+C:\RodrigoJuc-LP2\ExCarro\Prova\obj\Debug\Prova.csprojResolveAssemblyReference.cache

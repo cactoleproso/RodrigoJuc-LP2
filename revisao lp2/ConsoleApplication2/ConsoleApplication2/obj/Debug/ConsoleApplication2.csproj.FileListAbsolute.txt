@@ -5,3 +5,6 @@ c:\users\alunoct\documents\visual studio 2013\Projects\ConsoleApplication2\Conso
 c:\users\alunoct\documents\visual studio 2013\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\MySql.Data.dll
 c:\users\alunoct\documents\visual studio 2013\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
 c:\users\alunoct\documents\visual studio 2013\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\RodrigoJuc-LP2\revisao lp2\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\RodrigoJuc-LP2\revisao lp2\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\RodrigoJuc-LP2\revisao lp2\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

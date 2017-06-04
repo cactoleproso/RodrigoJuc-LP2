@@ -10,3 +10,6 @@ C:\RodrigoJuc-LP2\Triangulo\obj\Debug\ConsoleApplication1.pdb
 C:\RodrigoJuc-LP2\Triangulo\bin\Debug\ConsoleApplication1.exe
 C:\RodrigoJuc-LP2\Triangulo\bin\Debug\ConsoleApplication1.pdb
 C:\RodrigoJuc-LP2\Triangulo\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\RodrigoJuc-LP2\TrianguloPerimetro\bin\Debug\ConsoleApplication1.exe.config
+C:\RodrigoJuc-LP2\TrianguloPerimetro\obj\Debug\ConsoleApplication1.exe
+C:\RodrigoJuc-LP2\TrianguloPerimetro\obj\Debug\ConsoleApplication1.pdb

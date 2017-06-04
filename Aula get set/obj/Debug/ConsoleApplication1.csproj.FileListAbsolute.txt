@@ -4,3 +4,6 @@ c:\users\alunoct\documents\visual studio 2013\Projects\ConsoleApplication1\Conso
 c:\users\alunoct\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 c:\users\alunoct\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 c:\users\alunoct\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\RodrigoJuc-LP2\Aula get set\bin\Debug\ConsoleApplication1.exe.config
+C:\RodrigoJuc-LP2\Aula get set\obj\Debug\ConsoleApplication1.exe
+C:\RodrigoJuc-LP2\Aula get set\obj\Debug\ConsoleApplication1.pdb
