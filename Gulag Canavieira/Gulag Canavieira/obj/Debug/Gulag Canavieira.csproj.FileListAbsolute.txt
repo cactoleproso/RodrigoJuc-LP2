@@ -1,0 +1,59 @@
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe.config
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.pdb
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csprojResolveAssemblyReference.cache
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.baml
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.g.cs
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\App.g.cs
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira_MarkupCompile.cache
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.g.resources
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag_Canavieira.Properties.Resources.resources
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csproj.GenerateResource.Cache
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.exe
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.pdb
+c:\users\lab enii\documents\visual studio 2013\Projects\Gulag Canavieira\Gulag Canavieira\bin\Debug\MySql.Data.dll
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe.config
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.exe
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.pdb
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.pdb
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\bin\Debug\MySql.Data.dll
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csprojResolveAssemblyReference.cache
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.baml
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.g.cs
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\App.g.cs
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira_MarkupCompile.cache
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.g.resources
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag_Canavieira.Properties.Resources.resources
+D:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csproj.GenerateResource.Cache
+C:\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe.config
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.exe
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.pdb
+C:\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe
+C:\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.pdb
+C:\Gulag Canavieira\Gulag Canavieira\bin\Debug\MySql.Data.dll
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csprojResolveAssemblyReference.cache
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.baml
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.g.cs
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\App.g.cs
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira_MarkupCompile.cache
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.g.resources
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag_Canavieira.Properties.Resources.resources
+C:\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csproj.GenerateResource.Cache
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe.config
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.exe
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\bin\Debug\Gulag Canavieira.pdb
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\bin\Debug\MySql.Data.dll
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csprojResolveAssemblyReference.cache
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.baml
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\MainWindow.g.cs
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\App.g.cs
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira_MarkupCompile.cache
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.g.resources
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag_Canavieira.Properties.Resources.resources
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.csproj.GenerateResource.Cache
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.exe
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira.pdb
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Window1.g.cs
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Gulag Canavieira_MarkupCompile.lref
+C:\RodrigoJuc-LP2\Gulag Canavieira\Gulag Canavieira\obj\Debug\Window1.baml
