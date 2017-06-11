@@ -34,7 +34,7 @@ namespace Gulag_Canavieira
             listgulag.Items.Clear();
             MySqlCommand cmd = new MySqlCommand
             {
-                Connection = new MySqlConnection("Server=localhost; Database=gulag; Uid=root; Pwd="),
+                Connection = new MySqlConnection("Server=localhost; Database=gulag; Uid=root; Pwd=root;"),
                 CommandText = "SELECT nome FROM gulag"
             };
 
@@ -60,7 +60,7 @@ namespace Gulag_Canavieira
         {
             MySqlCommand cmd = new MySqlCommand
             {
-                Connection = new MySqlConnection("Server=localhost; Database=gulag; Uid=root; Pwd="),
+                Connection = new MySqlConnection("Server=localhost; Database=gulag; Uid=root; Pwd=root"),
                 CommandText = string.Format("SELECT Motivo FROM gulag WHERE Nome = '{0}'", nome)
             };
 
@@ -86,7 +86,7 @@ namespace Gulag_Canavieira
         {
             MySqlCommand cmd = new MySqlCommand
             {
-                Connection = new MySqlConnection("Server=localhost; Database=gulag; Uid=root; Pwd="),
+                Connection = new MySqlConnection("Server=localhost; Database=gulag; Uid=root; Pwd=root"),
                 CommandText = "SELECT id FROM gulag WHERE Nome= @Nome"
             };
             
@@ -128,8 +128,41 @@ namespace Gulag_Canavieira
         private void listgulag_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // Recuperar a info dequal item
-            AtualizarMotivo(listgulag.SelectedItem.ToString());
+            try
+            {
+                AtualizarMotivo(listgulag.SelectedItem.ToString());
+            }
+            catch
+            {
 
+            }
+            
+           
+
+        }
+
+        private void TirarGulag_Click(object sender, RoutedEventArgs e)
+        {
+            if (MessageBox.Show("Você quer mesmo libertar esta pessoa do gulag?", "Libertar do gulag", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            {
+                MySqlCommand cmd = new MySqlCommand
+                {
+                    Connection = new MySqlConnection("Server=localhost; Database=gulag; Uid=root; Pwd=root"),
+                    CommandText = string.Format("DELETE FROM gulag WHERE Nome = '{0}'", listgulag.SelectedItem.ToString())
+                };
+                cmd.Connection.Open();
+                cmd.ExecuteNonQuery();
+                cmd.Connection.Close();
+
+                AtualizarListas();
+            } 
+        }
+
+        private void Modificar_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 dialogo = new Window1(listgulag.SelectedItem.ToString());
+            dialogo.Show();
+            motivobox.Clear();
         }
     }
 }
