@@ -1,0 +1,6 @@
+c:\users\rodpo_000\documents\visual studio 2013\Projects\Exercicio8lista9\Exercicio8lista9\bin\Debug\Exercicio8lista9.exe.config
+c:\users\rodpo_000\documents\visual studio 2013\Projects\Exercicio8lista9\Exercicio8lista9\bin\Debug\Exercicio8lista9.exe
+c:\users\rodpo_000\documents\visual studio 2013\Projects\Exercicio8lista9\Exercicio8lista9\bin\Debug\Exercicio8lista9.pdb
+c:\users\rodpo_000\documents\visual studio 2013\Projects\Exercicio8lista9\Exercicio8lista9\obj\Debug\Exercicio8lista9.csprojResolveAssemblyReference.cache
+c:\users\rodpo_000\documents\visual studio 2013\Projects\Exercicio8lista9\Exercicio8lista9\obj\Debug\Exercicio8lista9.exe
+c:\users\rodpo_000\documents\visual studio 2013\Projects\Exercicio8lista9\Exercicio8lista9\obj\Debug\Exercicio8lista9.pdb
