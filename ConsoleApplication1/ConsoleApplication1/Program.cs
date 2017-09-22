@@ -11,10 +11,13 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args) //falta adicionar o sair, também falta stopwatch e enum
         {
-            Console.WriteLine("AGENDA");
+            Console.WriteLine("BEM VINDO A AGENDA DE OUTUBRO :^) ");
             int count = 0; int dia =0; int hora = 0; int minutos = 0; string nomeEvento = "aa";
+            Stopwatch tempo = new Stopwatch(); // tempo que o programa está rodando
+            tempo.Start();
             while (count == 0)
             {
+                
                 Console.Clear();
                 try
                 {
@@ -40,7 +43,7 @@ namespace ConsoleApplication1
                         
                     else if (resposta == 2)
                     {
-                        DateTime evento = new DateTime(2017, 9, dia, hora, minutos, 00);
+                        DateTime evento = new DateTime(2017, 10, dia, hora, minutos, 00);
                         eventos.Add(nomeEvento, evento);
                         foreach(KeyValuePair<string, DateTime> nome in eventos)
                         {
@@ -52,6 +55,11 @@ namespace ConsoleApplication1
 
                     else if (resposta == 3)
                     {
+                        
+                        tempo.Stop();
+                        TimeSpan ts = tempo.Elapsed;
+                        Console.WriteLine("Você passou {0} horas, {1} minutos e {2} segundos na agenda!", ts.Hours, ts.Minutes, ts.Seconds);
+                        Console.ReadLine();
                         count = 1;
                     }
                 }
@@ -59,6 +67,7 @@ namespace ConsoleApplication1
                 {
                     Console.Clear();
                     Console.WriteLine("Po digita namoral ae >:( ");
+                    Console.ReadLine();
                 }
             }       
             }

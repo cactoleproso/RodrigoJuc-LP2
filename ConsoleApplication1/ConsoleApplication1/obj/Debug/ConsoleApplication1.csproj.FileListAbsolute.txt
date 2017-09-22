@@ -4,3 +4,9 @@ C:\Users\alunoct\Desktop\DhiogoMartinsLP2-master\Exercicios Resolvidos\2C\Consol
 C:\Users\alunoct\Desktop\DhiogoMartinsLP2-master\Exercicios Resolvidos\2C\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 C:\Users\alunoct\Desktop\DhiogoMartinsLP2-master\Exercicios Resolvidos\2C\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\alunoct\Desktop\DhiogoMartinsLP2-master\Exercicios Resolvidos\2C\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\RodrigoJuc-LP2\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\RodrigoJuc-LP2\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\RodrigoJuc-LP2\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\RodrigoJuc-LP2\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\RodrigoJuc-LP2\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\RodrigoJuc-LP2\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
