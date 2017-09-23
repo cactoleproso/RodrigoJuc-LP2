@@ -9,7 +9,8 @@ namespace ConsoleApplication1
 {
     class Program
     {
-        static void Main(string[] args) //falta adicionar o sair, também falta stopwatch e enum
+        public enum ItemMenu { Adicionar, Consultar }
+        static void Main(string[] args) 
         {
             Console.WriteLine("BEM VINDO A AGENDA DE OUTUBRO :^) ");
             int count = 0; int dia =0; int hora = 0; int minutos = 0; string nomeEvento = "aa";
@@ -28,9 +29,16 @@ namespace ConsoleApplication1
                     Console.WriteLine("Digite a opção desejada e aperte enter:");
 
                     int resposta = int.Parse(Console.ReadLine());
-
+                    
                     if (resposta == 1)
                     {
+                        ItemMenu selecionado = ItemMenu.Adicionar; 
+                        Console.Clear();
+                        if (selecionado == ItemMenu.Adicionar)
+                        {
+                            Console.WriteLine("opção selecionada: {0}", (int)selecionado);        //funcionamento do Enum
+                        }
+                        Console.WriteLine(selecionado);
                         Console.WriteLine("Digite o nome do evento");
                         nomeEvento = Console.ReadLine();
                         Console.WriteLine("Digite o dia do evento");
@@ -39,16 +47,24 @@ namespace ConsoleApplication1
                         hora = int.Parse(Console.ReadLine());
                         minutos = int.Parse(Console.ReadLine());
                         
+                        
                     }
                         
                     else if (resposta == 2)
                     {
+                        ItemMenu selecionado = ItemMenu.Consultar; 
+                        Console.Clear();
+                        Console.WriteLine(selecionado);
                         DateTime evento = new DateTime(2017, 10, dia, hora, minutos, 00);
                         eventos.Add(nomeEvento, evento);
                         foreach(KeyValuePair<string, DateTime> nome in eventos)
                         {
                             Console.WriteLine(nome.Key);
                             Console.WriteLine(nome.Value);
+                        }
+                        if(selecionado == ItemMenu.Consultar)
+                        {
+                            Console.WriteLine("opção selecionada: {0}", (int)selecionado);
                         }
                         Console.ReadLine();
                     }
@@ -63,10 +79,15 @@ namespace ConsoleApplication1
                         count = 1;
                     }
                 }
-                catch (Exception e)
+                catch (FormatException)
                 {
                     Console.Clear();
                     Console.WriteLine("Po digita namoral ae >:( ");
+                    Console.ReadLine();                 
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Não há eventos marcados");
                     Console.ReadLine();
                 }
             }       
