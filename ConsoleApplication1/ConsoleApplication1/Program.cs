@@ -9,7 +9,7 @@ namespace ConsoleApplication1
 {
     class Program
     {
-        public enum ItemMenu { Adicionar, Consultar }
+        public enum ItemMenu { Adicionar, Consultar, Sair }
         static void Main(string[] args) 
         {
             Console.WriteLine("BEM VINDO A AGENDA DE OUTUBRO :^) ");
@@ -23,14 +23,14 @@ namespace ConsoleApplication1
                 try
                 {
                     Dictionary<string,DateTime> eventos = new Dictionary<string,DateTime>();
-                    Console.WriteLine("1- Adicionar evento à agenda");
-                    Console.WriteLine("2- Consultar evento");
-                    Console.WriteLine("3- Confiar na sua memória e sair da querida agenda :'( ");
+                    Console.WriteLine("{0} - {1}",(int)ItemMenu.Adicionar, ItemMenu.Adicionar);
+                    Console.WriteLine("{0} - {1}", (int)ItemMenu.Consultar, ItemMenu.Consultar);
+                    Console.WriteLine("{0} - {1}", (int)ItemMenu.Sair, ItemMenu.Sair);
                     Console.WriteLine("Digite a opção desejada e aperte enter:");
 
                     int resposta = int.Parse(Console.ReadLine());
                     
-                    if (resposta == 1)
+                    if (resposta == 0)
                     {
                         ItemMenu selecionado = ItemMenu.Adicionar; 
                         Console.Clear();
@@ -50,7 +50,7 @@ namespace ConsoleApplication1
                         
                     }
                         
-                    else if (resposta == 2)
+                    else if (resposta == 1)
                     {
                         ItemMenu selecionado = ItemMenu.Consultar; 
                         Console.Clear();
@@ -69,7 +69,7 @@ namespace ConsoleApplication1
                         Console.ReadLine();
                     }
 
-                    else if (resposta == 3)
+                    else if (resposta == 2)
                     {
                         
                         tempo.Stop();
